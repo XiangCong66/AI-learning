@@ -1,5 +1,4 @@
 def clean_text(text):
-    # 1. 去掉首尾空格
     text = text.strip()
     while '  ' in text:  
         text = text.replace('  ', ' ')
